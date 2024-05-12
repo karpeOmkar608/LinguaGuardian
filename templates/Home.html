@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/10fc83ddd8.js"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='/styles/style.css')}}">
+    
+    <title>LinguaGuardian</title>
+
+    
+</head>
+<body>
+
+    <header>
+        <img class="logo" src="static/images/logo.jpeg" alt="logo">
+        <h2>LinguaGuardian: Your Language Companion</h2>
+        <div class="nav">
+            
+            <ul class = "nav-bar">
+                <li><a href="{{url_for('index')}}">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#About">Contact Us</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+    <div class="background">
+       
+        
+        <div class="services" id="services">
+            
+            <div class="Grammar">
+                <a href="{{url_for('grammar')}}"><img src="static/images/Grammar1.jpeg" alt="Grammar Checker"></a>
+                <a href="{{url_for('grammar')}}"><button>Grammar Checker</button></a>
+            </div>
+            <div class="Translate">
+                <a href="{{url_for('translate')}}"><img src="static/images/translation.jpeg" alt="Text Translator"></a>
+                <a href="{{url_for('translate')}}"><button>Text Translation</button></a>
+            </div>
+            <div class="Plagiarism">
+                <a href="{{url_for('plag')}}"><img src="static\images\plagiarism.jpeg" alt="Plagiarism Detections"></a>
+                <a href="{{url_for('plag')}}"><button>Plagiarism Detection</button></a>
+            </div>
+        </div>
+
+    </div>
+        
+    </main>
+
+    <About id="About">
+       <h1>About Us</h1>
+       <div class="about-box">
+            <div class="AU-1">
+                <img class="about-us-img" src="static/images/about-us.jpeg" alt="about us">
+                <p>LinguaGuardian is a multifaceted website that combines a suite of essential language tools to empower you in various aspects of communication.
+                    <br> 
+                    Let's explore the key features of LinguaGuardian  <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+       </div>
+    </About>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img class="logo_footer" src="static/images/logo_bg.png" alt="logo">
+                <h2 class="logoline">LinguaGuardian: Your Language Companion</h2>
+            </div>
+            <div class="col">
+                <h3>Address</h3>
+                <p>SKNCOE</p>
+                <p>Vadgaon, Pune</p>
+                <p>Maharashtra, PIN 411041, India</p>
+                <p class="email-id">LinguaGuardian@gmail.com</p>
+            </div>
+            <div class="col">
+                <h3>Links</h3>
+                <ul class="Links">
+                    <li><a href="{{url_for('index')}}">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#About">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter</h3>
+                <form>
+                    <i class="fa-solid fa-envelope"></i>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="cc"><h3>LinguaGuardian © 2024 - All Rights Reserved </h3></div>
+        
+    </footer>
+</body>
+</html>

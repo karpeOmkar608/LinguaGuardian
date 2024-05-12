@@ -1,0 +1,324 @@
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;                                 
+    background-color: #FAF1E4;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 15%;
+    aspect-ratio: 5/2;
+    object-fit: contain;
+    mix-blend-mode: darken;
+  }
+
+  h2{
+    margin-right: 150px;
+    font-family: cursive;
+}
+.nav-bar{
+    list-style: none;
+}
+
+.nav-bar li{
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .nav-bar li a{
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav-bar li a:hover{
+    color: green;
+  }
+
+.nav-bar li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #435334;
+    text-decoration: none;
+    padding: 15px;
+  }
+
+button{
+    padding: 9px 25px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease 0s;
+  }
+  
+button:hover{
+    background-color:#CEDEBD;
+  }
+ 
+  
+
+ /* style for the body of webpage*/  
+
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.background {
+  width: 100%;
+  height: 100%;
+ 
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 150px;
+}
+
+
+
+
+.services{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.services button{
+  background-color: #CEDEBD;
+}
+
+.services button:hover{
+  background-color: #ccc;
+}
+
+.Grammar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Grammar img{
+  
+  border-radius: 30px;
+  height: 300px;
+  width: 450px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Grammar img:hover{
+  height: 350px;
+  width: 500px;
+}
+
+.Translate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.Translate img{
+  border-radius: 30px;
+  height: 300px;
+  width: 450px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Translate img:hover{
+  height: 350px;
+  width: 500px;
+}
+
+.Plagiarism{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Plagiarism img{
+  border-radius: 30px;
+  height: 300px;
+  width: 450px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Plagiarism img:hover{
+  height: 350px;
+  width: 500px;
+}
+
+
+  /*Style for About*/
+
+#About h1{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #435334;
+  padding: 50px;
+}
+
+.about-us-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    padding: 100px;
+}
+
+.about-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.AU-1{
+    border: 1px solid #435334;
+    box-shadow: 8px 8px 4px silver;
+    height: 500px;
+    width: 1000px;
+    display: flex;
+}
+
+.AU-1 p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 27px;
+  padding-top: 120px;
+  padding-right: 30px;
+}
+
+.AU-1 .fa-solid{
+    cursor: pointer;
+}
+
+  /*Style For Footer*/
+
+footer{
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    padding: 100px 0 30px; 
+    font-size: 13px;
+    line-height: 20px;
+    background-color: floralwhite;
+    
+}
+
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.col{
+  flex-basis: 20%;
+  padding: 10px;
+  color: #435334;
+}
+
+.col:nth-child(2) .col:nth-child(3){
+    flex-basis: 15%;
+}
+
+.logo_footer{
+  width: 40%;
+  margin-bottom: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.logoline{
+  font-family: "Montserrat", sans-serif ;
+  margin: 0;
+}
+
+.col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  color: #435334;
+  position: relative;
+}
+
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid #ccc;
+  margin-top: 20px;
+}
+
+.Links{
+  list-style: none;
+  margin-bottom: 12px;
+  color: #435334;
+  padding: 0;
+}
+
+.Links li{
+  line-height: 35px;
+}
+
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #435334;
+  margin-bottom: 50px;
+}
+
+form .far{
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+form input{
+    width: 100%;
+    background: transparent;
+    color: #435334;
+    border: 0;
+    outline: none;
+}
+
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.social-links .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.cc{
+  text-align: center;
+}
+
+@media (max-width: 700px){
+    footer{
+      bottom: unset;
+    }
+    .col{
+      flex-basis: 100%;
+    }
+    
+    .col:nth-child(2) .col:nth-child(3){
+        flex-basis: 100%;
+    }
+}
