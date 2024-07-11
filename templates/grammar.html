@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="UTF-8" />
+    <title>LinguaGuardian: Grammar Corrector</title>
+    
+    <script defer src="../static/app.js"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='/grammar.css')}}" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+        <div class="container1">
+            <div class="head">
+                <div class="logo">
+                    <img src="../static/Images/logo_bg.png" alt="LinguaGuardian Logo">
+                    <h2>LinguaGuardian</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="{{url_for('index')}}">Home</a></li>
+                        <li><a href="{{url_for('plag')}}">Plagiarism</a></li>
+                        <li><a href="{{url_for('translate')}}">Translation</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container container__phone">
+        <h1 id="title">Write. Correct. Rewrite.</h1>
+        <h2 id="title--sub">
+          LinguaGuardian: Grammar Corrector is a free online grammar checker that helps to write
+          clear and concise sentences.
+        </h2>
+        <div class="container__center">
+          <div class="text__container">
+            <div
+              class="panel text_input"
+              inputmode="text"
+              contenteditable="true"
+              spellcheck="false"
+              tabindex="0"
+              id="text_input"
+            > </div>
+            <div class="button-link">
+              <button
+                class="button"
+                id="correct"
+                name="action"
+                type="submit"
+                value="correct"
+                onclick=""
+              >
+                Correct
+              </button>
+              <button
+                class="button"
+                id="rewrite"
+                name="action"
+                type="submit"
+                value="rewrite"
+              >
+                Rewrite
+              </button>
+              <button
+              class="button"
+              id="clear"
+              type="submit"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </body>
+  </html>
+  

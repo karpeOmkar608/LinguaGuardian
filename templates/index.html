@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinguaGuardian: Your Language Companion</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='/style.css')}}">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="head">
+                <div class="logo">
+                    <img src="../static/Images/logo_bg.png" alt="LinguaGuardian Logo">
+                    <h2>LinguaGuardian</h2>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container1">
+            <div>
+            <h2>LinguaGuardian</h2>
+            <h3>"Your Language Companion"</h3>
+            <p>Enhance your writing with our advanced tools for <br>grammar correction, text translation, and plagiarism detection.</p>
+            <a href="#services" class="cta">Explore Our Services</a>
+            </div>
+            <div>
+            <img src="{{url_for('static' , filename = '/Images/bg-img.png')}}" alt="LinguaGuardian Logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="Main">
+            <div class="service">
+                <h3>Grammar Correction</h3>
+                <p>Automatically correct grammar and improve the readability of your text.</p>
+                <a href="{{url_for('grammar')}}"><button>Click Me!</button></a>
+            </div>
+            <div class="service">
+                <h3>Text Translation</h3>
+                <p>Translate text to and from multiple languages quickly and accurately.</p>
+                <a href="{{url_for('translate')}}"><button>Click Me!</button></a>
+            </div>
+            <div class="service">
+                <h3>Plagiarism Detection</h3>
+                <p>Ensure the originality of your content with our advanced plagiarism detection tool.</p>
+                <a href="{{url_for('plag')}}"><button>Click Me!</button></a>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>LinguaGuardian is dedicated to providing top-notch language services. Whether you need to perfect your grammar, translate text to multiple languages, or ensure your content is original, we've got you covered.</p>
+        </div>
+        <div class="about-cards">
+            <div class="card">
+                <h2>
+                    Our Mission
+                </h2>
+                <p>'Our mission is to provide top-notch language services to help individuals and businesses communicate effectively across different languages and cultures.'</p>
+            </div>
+            <div class="card">
+                <h2>Our Vision</h2>
+                <p>'We envision a world where language is no barrier to communication, understanding, and collaboration.'</p>
+            </div>
+            <div class="card">
+                <h2>Our Values</h2>
+                <p>'We value accuracy, reliability, and user satisfaction in all our services. Our commitment to excellence drives everything we do.'</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--Learn-->
+    <section id="Learn" class="Learn">
+        <h2>Learn With Us!</h2>
+        <div class="Learn-box">
+            <img class="man1" src="../static/Images/man1.png" alt="">
+            <div>
+                <h2>Free Grammar Lectures For You! <br><br><img src="../static/Images/grommet-icons_form-next-link.png" alt="arrow"></h2>
+                
+            </div>
+            <div class="vdo-box">
+                <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/CfU7rIZPnNY?si=D3YdggO_6mtwFQmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+    </section>
+
+    
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img class="logo_footer" src="/Images/logo_bg.png" alt="logo">
+                <h2 class="logoline">LinguaGuardian</h2>
+            </div>
+            <div class="col">
+                <h3>Address</h3>
+                <p>SKNCOE</p>
+                <p>Vadgaon, Pune</p>
+                <p>Maharashtra, PIN 411041, India</p>
+                <p class="email-id">LinguaGuardian@gmail.com</p>
+            </div>
+            <div class="col">
+                <h3>Links</h3>
+                <ul class="Links">
+                    <li><a href="{{url_for('index')}}">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#About">About us</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email id" required>
+                    <button type="submit">>></i></button>
+                </form>
+                
+            </div>
+        </div>
+        <hr>
+        <div class="cc"><h3>LinguaGuardian © 2024 - All Rights Reserved </h3></div>
+    </footer>
+
+
+
+    
+</body>
+</html>

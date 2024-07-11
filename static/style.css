@@ -1,0 +1,391 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: cursive;
+}
+
+/* Header */
+header {
+    background: #f4f4f4;
+    color: #333;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+header h2 {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:right;
+    align-items: end;
+}
+
+nav ul li {
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+nav ul li a {
+    color:gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    color: #333;
+    text-align:left;
+    padding: 100px 0;
+    height: 600px;
+}
+.container1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero h2 h3{
+    font-size: 48px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+}
+
+.cta {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.cta:hover {
+    background: #555;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.Main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+    
+}
+
+.Main button{
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.service {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background: #f4f4f4;
+}
+
+.service:hover{
+    width: 40%;
+    transition: all ease 0.3s;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.card{
+    height: 200px;
+    width: 250px;
+    background: #f4f4f4;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*Learn*/
+.Learn{
+    background: #f4f4f4;
+    padding: 50px 0;
+}
+
+.Learn h2{
+    text-align: center;
+}
+
+.man1{
+    height: 500px;
+    width: 400px;
+    padding: 0px 100px;
+}
+
+.Learn-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Learn-box h2{
+    padding-top: 200px;
+}
+
+
+
+.video{
+    margin: 100px;
+}
+
+iframe{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    font-family: Arial, sans-serif;
+}
+
+footer .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .col {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+footer .logo_footer {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer h2, footer h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+footer .email-id {
+    color: #aaa;
+}
+
+.Links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.Links ul li {
+    margin: 5px 0;
+}
+
+footer .Links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer .Links ul li a:hover {
+    text-decoration: none;
+}
+
+footer form {
+    display: flex;
+    align-items: center;
+}
+
+footer form i {
+    margin-right: 10px;
+    color: white;
+}
+
+footer form input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer form button i {
+    margin: 0;
+}
+
+footer .social-links {
+    margin-top: 20px;
+}
+
+footer .social-links i {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer .social-links i:hover {
+    color: #4CAF50;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid #444;
+    margin: 20px 0;
+}
+
+footer .cc {
+    text-align: center;
+}
+
+footer .cc h3 {
+    font-size: 14px;
+    margin: 0;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .Main {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service{
+        height: 200px;
+        width: 250px;
+    }
+
+    .about-cards{
+        flex-direction: column;
+    }
+    
+    
+}
